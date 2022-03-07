@@ -7,9 +7,9 @@ Using a COVID 19 dataset obtained as of February 28, 2022 from [OurworldinData](
 ## Deliverable One Role Assignments:
 
 - Square - Bryan
-- Triangle - Maliha
+- Triangle - Ling
 - Circle -Michael
-- X - Ling
+- X - Maliha
 
 ## Preliminary Data review and charting
 
