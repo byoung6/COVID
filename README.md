@@ -54,10 +54,13 @@ analysis and the relation between them and how one factor effects the other. For
 ## Initial Analysis
 A cursory review of the data through linear regression details a slight negative correlation through the total data set. The regression equation for correlating New Vaccinations to New Deaths is y=-0.00047023x +30.57783953149005; where as the linear regression equation for Vaccinations v. ICU patients is y=-0.00559162x + 124.30465400246385. 
 
-
 ![Linear Regression New Vaccinations to New Deaths](https://user-images.githubusercontent.com/76926631/156946245-d7eaedcd-9c84-471b-96b3-aac89353211f.PNG)
 
 ![Linear Regression Vaccinations v ICU patients](https://user-images.githubusercontent.com/76926631/156946248-0ae1fdd8-f2f2-4ad0-9042-28e6a503367f.PNG)
+
+![KMeans](https://user-images.githubusercontent.com/76926631/156951027-1c7163f6-7d13-487e-9db5-4d412ad583e7.PNG)
+
+![3D Model](https://user-images.githubusercontent.com/76926631/156951019-19afa134-b774-402c-bcb7-9e3467440d96.PNG)
 
 The preliminary analysis notes a slight negative regression line, but at the moment, the data sets hold too much noise to accurately predict future values, much less have a high confidence interval. Therefore, further screening of the data should be done in order to ensure a higher confidence interval and p-value. 
 
