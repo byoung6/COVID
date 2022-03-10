@@ -23,7 +23,6 @@ Prior to data processing, the following graphs were created to visualize the cor
 
 ![New Deaths to Vaccinations across time](https://user-images.githubusercontent.com/76926631/156946081-40fe9231-87ae-4fd3-827b-01ccd5f5fe9f.PNG)
 
-
 - Vaccinations to ICU
 
 ![Vaccinations to ICU](https://user-images.githubusercontent.com/76926631/156946083-4b584c6e-ecfb-4e87-9ccb-cb21b488e61a.PNG)
