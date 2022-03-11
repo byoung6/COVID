@@ -30,3 +30,22 @@ new_vaccinations_smoothed VARCHAR
 );
 
 SELECT * FROM COVID2;
+
+-- Refined table filtered for United States data after 2020-01-11 (post vacc rollout)
+CREATE TABLE COVID2_USA (
+dates VARCHAR,
+location_country VARCHAR,
+continent VARCHAR,
+new_cases_smoothed VARCHAR,
+icu_patients VARCHAR,
+icu_patients_per_million VARCHAR,
+new_deaths_smoothed VARCHAR,
+new_vaccinations_smoothed VARCHAR
+);
+
+INSERT INTO COVID2_USA
+SELECT * FROM COVID2
+WHERE location_country = 'United States' 
+AND dates >= '2020-01-11';
+
+SELECT * FROM COVID2_USA; 
