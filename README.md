@@ -1,4 +1,4 @@
-### [COVID] (https://docs.google.com/presentation/d/1rvp-qjYvUckpk5IVLhBNoNzQASPl3vkx3YNAJQ2HaII/edit#slide=id.gf3ad74aadf_0_14)
+### [COVID](https://docs.google.com/presentation/d/1rvp-qjYvUckpk5IVLhBNoNzQASPl3vkx3YNAJQ2HaII/edit#slide=id.gf3ad74aadf_0_14)
 
 ## Purpose
 
