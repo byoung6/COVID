@@ -10,9 +10,9 @@
 CREATE TABLE COVID (     
 dates VARCHAR,
 location_country VARCHAR,
-icu_patients_per_million VARCHAR,
-new_deaths_smoothed VARCHAR,
-new_vaccinations_smoothed_per_million VARCHAR
+icu_patients_per_million BIGINT,
+new_deaths_smoothed BIGINT,
+new_vaccinations_smoothed_per_million BIGINT
 );
 
 SELECT * FROM COVID;
@@ -22,11 +22,11 @@ CREATE TABLE COVID2 (
 dates VARCHAR,
 location_country VARCHAR,
 continent VARCHAR,
-new_cases_smoothed VARCHAR,
-icu_patients VARCHAR,
-icu_patients_per_million VARCHAR,
-new_deaths_smoothed VARCHAR,
-new_vaccinations_smoothed VARCHAR
+new_cases_smoothed BIGINT,
+icu_patients BIGINT,
+icu_patients_per_million BIGINT,
+new_deaths_smoothed BIGINT,
+new_vaccinations_smoothed BIGINT
 );
 
 SELECT * FROM COVID2;
@@ -36,11 +36,11 @@ CREATE TABLE COVID2_USA (
 dates VARCHAR,
 location_country VARCHAR,
 continent VARCHAR,
-new_cases_smoothed VARCHAR,
-icu_patients VARCHAR,
-icu_patients_per_million VARCHAR,
-new_deaths_smoothed VARCHAR,
-new_vaccinations_smoothed VARCHAR
+new_cases_smoothed BIGINT,
+icu_patients BIGINT,
+icu_patients_per_million BIGINT,
+new_deaths_smoothed BIGINT,
+new_vaccinations_smoothed BIGINT
 );
 
 INSERT INTO COVID2_USA
