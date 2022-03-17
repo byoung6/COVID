@@ -44,8 +44,23 @@ new_vaccinations_smoothed BIGINT
 );
 
 INSERT INTO COVID2_USA
-SELECT * FROM COVID2
+SELECT * FROM COVID2 
 WHERE location_country = 'United States' 
 AND dates >= '2020-01-11';
 
 SELECT * FROM COVID2_USA; 
+
+-- lagging data sets to match peak to peak for new cases and new deaths
+CREATE TABLE COVID_new_cases_smoothed(
+    dates VARCHAR,
+    new_cases_smoothed BIGINT);
+
+CREATE TABLE COVID_new_deaths_smoothed(
+    dates VARCHAR,
+    new_deaths_smoothed BIGINT
+);
+
+INSERT INTO COVID_new_cases_smoothed
+SELECT dates, new_deaths_smoothed 
+FROM COVID2
+WHERE dates >= '2020-01-11' 
