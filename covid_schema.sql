@@ -7,29 +7,24 @@
 -- 5) select import, choose the file, and choose the , delimiter
 
 -- Initial Table for comparing covid vaccinations/deaths/and icu_patients
-CREATE TABLE COVID (     
-dates VARCHAR,
-location_country VARCHAR,
-icu_patients_per_million BIGINT,
-new_deaths_smoothed BIGINT,
-new_vaccinations_smoothed_per_million BIGINT
-);
-
-SELECT * FROM COVID;
-
--- Refined table for comparing lag data of new cases/new deaths/new vacc/etc
-CREATE TABLE COVID2 (
+CREATE TABLE COVID (
 dates VARCHAR,
 location_country VARCHAR,
 continent VARCHAR,
-new_cases_smoothed BIGINT,
-icu_patients BIGINT,
-icu_patients_per_million BIGINT,
-new_deaths_smoothed BIGINT,
-new_vaccinations_smoothed BIGINT
+new_cases_smoothed FLOAT,
+icu_patients FLOAT,
+icu_patients_per_million FLOAT,
+new_deaths_smoothed FLOAT,
+new_vaccinations_smoothed FLOAT,
+people_fully_vaccinated_per_hundred FLOAT,
+total_boosters_per_hundred FLOAT,
+new_people_vaccinated_smoothed_per_hundred FLOAT,
+people_fully_vaccinated FLOAT,
+total_boosters FLOAT,
+new_vaccinations FLOAT
 );
 
-SELECT * FROM COVID2;
+SELECT * FROM COVID;
 
 -- Refined table filtered for United States data after 2020-01-11 (post vacc rollout)
 CREATE TABLE COVID2_USA (
@@ -63,4 +58,4 @@ CREATE TABLE COVID_new_deaths_smoothed(
 INSERT INTO COVID_new_cases_smoothed
 SELECT dates, new_deaths_smoothed 
 FROM COVID2
-WHERE dates >= '2020-01-11' 
+WHERE dates >= '2020-12-11' 
