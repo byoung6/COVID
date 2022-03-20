@@ -1,4 +1,4 @@
-### COVID
+### [COVID](https://docs.google.com/presentation/d/1rvp-qjYvUckpk5IVLhBNoNzQASPl3vkx3YNAJQ2HaII/edit#slide=id.gf3ad74aadf_0_14)
 
 ## Purpose
 
@@ -22,7 +22,6 @@ Prior to data processing, the following graphs were created to visualize the cor
 - New Deaths to Vaccinations
 
 ![New Deaths to Vaccinations across time](https://user-images.githubusercontent.com/76926631/156946081-40fe9231-87ae-4fd3-827b-01ccd5f5fe9f.PNG)
-
 
 - Vaccinations to ICU
 
@@ -52,9 +51,9 @@ We will be using Tableau as our dashboard. We will integerate our final csv file
 analysis and the relation between them and how one factor effects the other. For example relation between new vaccinations vs new icu admissions or new deaths.
 
 ## Initial Analysis
-A cursory review of the data through linear regression details a slight negative correlation through the total data set. The regression equation for correlating New Vaccinations to New Deaths is y=-0.00047023x +30.57783953149005; where as the linear regression equation for Vaccinations v. ICU patients is y=-0.00559162x + 124.30465400246385. 
+A cursory review of the data through linear regression details a slight negative correlation through the total data set. The regression equation for correlating New Vaccinations to New Deaths is y=-0.00523123x + 122.90020074392727; where as the linear regression equation for Vaccinations v. ICU patients is y=-0.00047023x +30.57783953149005. 
 
-![Linear Regression New Vaccinations to New Deaths](https://user-images.githubusercontent.com/76926631/156946245-d7eaedcd-9c84-471b-96b3-aac89353211f.PNG)
+![Linear Regression New Vaccinations to New Deaths_smoothed](https://user-images.githubusercontent.com/76926631/157681511-4f2bc479-2d92-474c-bb95-25b55b9987a5.PNG)
 
 ![Linear Regression Vaccinations v ICU patients](https://user-images.githubusercontent.com/76926631/156946248-0ae1fdd8-f2f2-4ad0-9042-28e6a503367f.PNG)
 
