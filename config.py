@@ -1,0 +1,1 @@
+db_password = 'Tak0yaki!'
