@@ -59,3 +59,25 @@ INSERT INTO COVID_new_cases_smoothed
 SELECT dates, new_deaths_smoothed 
 FROM COVID2
 WHERE dates >= '2020-12-11' 
+
+-- filtering tables
+SElECT Distinct (location)
+into location_reference_table
+from covid
+
+select distinct continent, (location)
+into continent
+from covid
+
+-- creating join for reference table of regions/countries
+select * from location_reference_table
+
+select * from continent
+
+select continent, location_reference_table
+into region_reference
+from continent
+left join location_reference_table on location_reference_table.location = continent.location
+order by continent.continent;
+
+
