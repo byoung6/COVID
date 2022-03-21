@@ -12,7 +12,7 @@ The Technology used for this project are:
 - Tableau
 
 ### Database Storage
-The CSV will be stored via SQL, of which we will be pulling from the SQL server to instance data.
+The CSV will be stored via SQL, of which we will be pulling from the SQL server to instance data. Two tables were created, one specifically focusing on USA covid metrics, and the other looking at global covid metrics.
 
 ### Preliminary Data review and charting
 
