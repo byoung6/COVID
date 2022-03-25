@@ -51,13 +51,16 @@ The preliminary analysis notes a slight negative regression line, but at the mom
 
 
 ### Machine Learning
-The data is run through linear regression models, SVM models, and Random Forest Regressor models to find the best fit. Due to the nature of the data set, and the limitations inherent in the Linear Regression and SVM models, we have determined that Random Forest Regressor models are the best to predict future death rates. Our training data set shows an average delta between predicted and actual deaths of 3.24%
+The data is run through linear regression models, SVM models, and Random Forest Regressor models to find the best fit. Due to the nature of the data set, and the limitations inherent in the Linear Regression and SVM models, we have determined that Random Forest Regressor models are the best to predict future death rates. Random Forest Regressor is better for hybrid classification regression models. We decided to train 80% of the data set and test the remaining 20 on our model (US data set). Our training data set shows an average delta between predicted and actual deaths of 3.24%
 
 ![RFR Training US](https://user-images.githubusercontent.com/76926631/159176616-b8ea010b-72c6-4d69-8aef-7abf72990a0a.PNG)
 
 ![image](https://user-images.githubusercontent.com/76926631/159732237-9a2f09e0-5fe2-4764-9590-d51888c5a7ba.png)
 
-Calculating the Mean Squared value gives us a MSE of 80.01.106.
+Calculating the Mean Squared value gives us a MSE of 86.367
+![USA MSQ](https://user-images.githubusercontent.com/76926631/160031713-053586d6-7315-4fb2-9808-79a5e1393660.PNG)
+
+Once a training model was established, we tested the model on the remaining clean data.
 
 ### Testing
 
