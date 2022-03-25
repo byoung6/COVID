@@ -14,7 +14,7 @@ The Technology used for this project are:
 ### Database Storage
 The CSV will be stored via SQL, of which we will be pulling from the SQL server to instance data. Two tables were created, one specifically focusing on USA covid metrics, and the other looking at global covid metrics.
 
-![ERD](https://user-images.githubusercontent.com/76926631/159194097-929a26d6-f55c-4dea-adc9-6ab379227e1e.png)
+![ERD](https://user-images.githubusercontent.com/76926631/160034341-b09f97be-7e25-467e-afb0-dc47c80ae71b.png)
 
 ### Preliminary Data review and charting
 
