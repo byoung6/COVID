@@ -55,6 +55,10 @@ The data is run through linear regression models, SVM models, and Random Forest 
 
 ![RFR Training US](https://user-images.githubusercontent.com/76926631/159176616-b8ea010b-72c6-4d69-8aef-7abf72990a0a.PNG)
 
+![image](https://user-images.githubusercontent.com/76926631/159732237-9a2f09e0-5fe2-4764-9590-d51888c5a7ba.png)
+
+Calculating the Mean Squared value gives us a MSE of 80.01.106.
+
 ### Testing
 
 ![RFR Test Canada](https://user-images.githubusercontent.com/76926631/159176630-3b0f4637-8026-4529-8251-d3df127fd929.PNG)
