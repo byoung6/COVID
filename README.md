@@ -16,3 +16,7 @@ Attached is the link to the google slides we are preparing (this is already on o
 
 Our tools included: Python/Jupyter Notebook, PostgreSQL /pgAdmin 4, Sklearn/Pandas, and Tableau. 
 
+The variables we chose to focus on/compare included: Fully vaccinated, Booster shots, ICU Patients, and Deaths
+
+Our data on COVID-19 was scraped from multiple sources found through this link: (https://ourworldindata.org/coronavirus). 
+
