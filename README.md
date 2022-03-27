@@ -1,6 +1,6 @@
 # COVID
 
-## Deliverable 3:Presentation / Format
+## Deliverable 3: Presentation / Format
 
 ### Google Slides
 Attached is the link to the google slides we are preparing (this is already on our main branch): https://docs.google.com/presentation/d/1rvp-qjYvUckpk5IVLhBNoNzQASPl3vkx3YNAJQ2HaII/edit#slide=id.p
@@ -18,5 +18,31 @@ Our tools included: Python/Jupyter Notebook, PostgreSQL /pgAdmin 4, Sklearn/Pand
 
 The variables we chose to focus on/compare included: Fully vaccinated, Booster shots, ICU Patients, and Deaths
 
+## Data 
 Our data on COVID-19 was scraped from multiple sources found through this link: (https://ourworldindata.org/coronavirus). 
+
+## Selected Data and Definitions
+- Date, Location, and Continent
+- New cases smoothed (new confirmed cases of covid)
+- Icu_patients 
+- Icu_patients_per_million 
+- New_deaths_smoothed
+- New_vaccinations_smoothed
+- People_fully_vaccinated_per_hundred
+- Total_boosters_per_hundred
+- New_people_vaccinated_smoothed_per_hundred
+- People_fully_vaccinated
+- Total_boosters
+- New_vaccinations
+
+## Process
+- Defined target, in this case deaths
+- Selected features
+- started with linear regression, realized it wasn't flexible enough
+- switched to random forest regressor
+- trained model with USA data
+- ran the model for other countries for comparison
+- showcased results in other countries (with similar results and alternate to show effectiveness and vulerabilities of model)
+
+
 
