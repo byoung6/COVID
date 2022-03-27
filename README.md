@@ -57,8 +57,9 @@ The data is run through linear regression models, SVM models, and Random Forest 
 
 ![image](https://user-images.githubusercontent.com/76926631/159732237-9a2f09e0-5fe2-4764-9590-d51888c5a7ba.png)
 
-Calculating the Mean Squared value gives us a MSE of 86.367
-![USA MSQ](https://user-images.githubusercontent.com/76926631/160031713-053586d6-7315-4fb2-9808-79a5e1393660.PNG)
+Calculating the Mean Squared value gives us a MSE of 71.00843
+![USA MSQ](https://user-images.githubusercontent.com/76926631/160300107-62d71ff7-597a-4322-8d24-a728951fd90f.PNG)
+
 
 Once a training model was established, we tested the model on the remaining clean data.
 
