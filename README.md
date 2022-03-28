@@ -2,6 +2,7 @@
 
 ## Purpose
 
+The COVID-19 pandemic is upending lives, the status quo and most global operations. Clean, reliable data is more crucial than ever as it provides insights into how variables correlate, and what measures can be taken to mitigate preventable death/sickness.      
 Using a COVID 19 dataset obtained as of February 28, 2022 from [OurworldinData](https://ourworldindata.org/coronavirus), analyze and develop machine learning models that correlates COVID new vaccinations, ICU Patients, and Deaths to infer the effectiveness of vaccinations and natural immunity. Our aim is to develop a model to predit death rates from new cases, icu patients, new vaccinations, people fully vaccinated, and total boosters. We train the model using the US specific data, and test against the remaining counties from the data set. 
 
 ### Technologies Used
