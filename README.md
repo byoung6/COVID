@@ -57,10 +57,8 @@ The data is run through linear regression models, SVM models, and Random Forest 
 
 ![image](https://user-images.githubusercontent.com/76926631/160727307-9049adc6-27e2-4376-95d0-c32fb627d156.png)
 
-
-Calculating the Mean Squared value gives us a MSE of 71.00843
+Root Mean Squared Error allows us to determine how well the system learns the model, with the lower the number the better. Hypothetically, 0 would mean a perfict test-train-split.Calculating the Root Mean Squared value gives us a MSE of 71.00843
 ![USA MSQ](https://user-images.githubusercontent.com/76926631/160300107-62d71ff7-597a-4322-8d24-a728951fd90f.PNG)
-
 
 ### Testing
 
@@ -80,3 +78,6 @@ Despite some relative succcess in testing and training, with a low average delta
 ![Poor Portugal](https://user-images.githubusercontent.com/76926631/159176962-3b740d87-1bbd-4bf4-859f-ba1cb5d71b08.PNG)
 
 The sudden spikes in delta note deficiencies or alternative causes for predicting death rates. As such, more data would be necessary in some cases (such as japan only having 7 data points), or alternative "x" independent variables would be required to properly predict death rate. 
+
+### Further suggestions
+To better train a model, 
