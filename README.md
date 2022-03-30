@@ -80,4 +80,4 @@ Despite some relative succcess in testing and training, with a low average delta
 The sudden spikes in delta note deficiencies or alternative causes for predicting death rates. As such, more data would be necessary in some cases (such as japan only having 7 data points), or alternative "x" independent variables would be required to properly predict death rate. 
 
 ### Further suggestions
-To better train a model, 
+To better train a model, we would need more data points per country, as some sources only reported twice. Individualzed data would also help provide correlative data among different covid variants. Further, the analysis can account for time delay, as it is fairly known once someone has been diagnosed with covid, there is a delay in possible death. Finally, standardization across reporting metrics among all countries can further improve the model.
